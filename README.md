@@ -1,6 +1,15 @@
-# Calculator-App-in-Spring-Boot
+This is a sample Web Application to use during Continuous Integration demos.
 
-This is a calculator web application developed using Spring Boot..
+#Build Instruction
 
-This application has functions like Add, Subtract, Multiply, Divide and exponent. 
+```
+mvn3 clean package
+```
 
+#Deploy instruction
+
+Deploy ```target/WebApp.war``` on Tomcat
+ 
+#TODO
+ 
+Add instruction to deploy to ElasticBeanstalk
